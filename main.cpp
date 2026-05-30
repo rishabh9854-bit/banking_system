@@ -6,6 +6,8 @@ int main()
 {
     int choice;
     bankacc acc;
+    int pin;
+    int accn;
     double amount;
     do
     {
@@ -27,18 +29,36 @@ int main()
             break;
 
         case 2:
+            int pin;
+            int accn;
+            cout << "enter acc no." << endl;
+            cin >> accn;
+
+            cout << "enter pin: " << endl;
+            cin >> pin;
+
             cout << "Enter amount: ";
             cin >> amount;
             acc.deposit(amount);
             break;
 
         case 3:
+            cout << "enter acc no." << endl;
+            cin >> accn;
+
+            cout << "enter pin: " << endl;
+            cin >> pin;
             cout << "Enter amount: ";
             cin >> amount;
             acc.withdraw(amount);
             break;
 
         case 4:
+            cout << "enter acc no." << endl;
+            cin >> accn;
+
+            cout << "enter pin: " << endl;
+            cin >> pin;
             acc.view();
             break;
 
