@@ -1,6 +1,7 @@
 #ifndef BankAccount_h
 #define BankAccount_h
 #include <iostream>
+
 using namespace std;
 class bankacc
 {
@@ -17,6 +18,7 @@ public:
         cout << "ENter name" << endl;
         cin >> name;
         bal = 0.00;
+        
     }
     double deposit(double amount)
     {
@@ -35,5 +37,6 @@ public:
         cout<<"balance: "<<bal<<endl;
         cout<<name;
     }
+
 };
 #endif
