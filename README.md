@@ -1,2 +1,5 @@
 This is a simple banking system i made in C++ using object oriented programming.
-I will modify it to use file-based database.
+Based on a binary file database.
+You can create an account or delete it.
+You can make deposits , withdrawals and also see your account details.
+There is also an option to list out all details of the all the accounts currently saved in database.
