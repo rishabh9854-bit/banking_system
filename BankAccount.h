@@ -20,6 +20,7 @@ public:
     {
         cout << "enter acc no.";
         cin >> accno;
+        cout<<"enter name"<<endl;
         cin.ignore();           
         cin.getline(name, 50);
         cout << "enter pin: ";
