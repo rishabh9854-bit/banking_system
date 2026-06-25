@@ -155,10 +155,11 @@ public:
     bool login()
     {
         string user, pass;
-        cout << "ENTER ADMIN USERNAME AND PASSWORD: " << endl;
+        cout << "ENTER ADMIN USERNAME " << endl;
         cin >> user;
+        cout<<"enter pass ";
         cin >> pass;
-        if (user == admin_name && user == admin_pass)
+        if (user == admin_name && pass == admin_pass)
         {
             loggedin = true;
             return true;
