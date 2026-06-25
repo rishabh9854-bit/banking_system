@@ -230,7 +230,7 @@ public:
         while (in.read(reinterpret_cast<char *>(&temp), sizeof(bankacc)))
         {
             count++;
-            csv << temp.getaccno() << "," << "\"" << temp.getname() << "," << "\"" << fixed << setprecision(2) << temp.getbal() << "," << "\"" << temp.getpin() << "\n";
+            csv << temp.getaccno() << ","<< temp.getname() << "," <<fixed << setprecision(2) << temp.getbal() << "," << temp.getpin() << "\n";
         }
         in.close();
         csv.close();
