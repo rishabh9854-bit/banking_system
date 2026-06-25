@@ -155,7 +155,7 @@ int main()
                 default:
                     cout << "INVALID CHOICE!";
                 }
-            } while (adminchoice != 8);
+            } while (adminchoice != 4);
             break;
 
         case (8):
